@@ -28,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <div className="datos">
+        <label><h1 className='TituloFormulario'>Ingreso de Datos Personales</h1></label>
         <label>Nombre: <input
         onChange={(event)=>{
           setNombre(event.target.value);
